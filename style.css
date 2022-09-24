@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar__header span:first-child{
+color: #00a63f;
+vertical-align: bottom;
+}
+.navbar__header span:nth-child(3){
+    display: block;
+    font-size: 14px;
+    padding-left: 30px;
+}
+.menu__header{
+    margin:0 50vh ;
+}
+.logo__header{
+    margin-left: 30vh;
+    background-color: #00a63f;
+    padding: 10px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+}
+header{
+    position: fixed;
+    z-index: 999999999999999999999999999;
+    width: 100%;
+    transition: all .5s;
+}
+header.sticky{
+    background-color: #fff;
+    padding: 10px 0;
+    color: #3f3a64
+    ;
+}
+header.sticky span {
+    color: #3f3a64
+    ;
+}
+header.sticky ul li a{
+    color: #3f3a64
+    ;
+}
+
+header{
+    background-color: transparent;
+    
+    border-bottom: 1px solid gray;
+}
+header span {
+    color:#fff
+    ;
+}
+header ul li a{
+    color: #fff;
+    ;
+}
+.text__carousel{
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 900px;
+    font-size: 20px;
+    z-index: 999999999999999999999999999;
+
+}
+.img__carousel{
+    position: relative;
+    
+
+}
+button{
+    padding: 10px 30px;
+    border: none;
+    background-color: #00a63f;
+    color: white;
+    border-radius: 8px;
+}
+.text__carousel h1{
+    font-size: 65px;
+    font-weight: 600;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(29, 42, 55, 0.7);
+    top: 0;
+}
